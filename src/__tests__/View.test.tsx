@@ -1,3 +1,4 @@
+import { describe, it, expect } from "vitest";
 import ReactThreeTestRenderer from "@react-three/test-renderer";
 import ViewOne from "../components/ViewOne";
 import ViewTwo from "../components/ViewTwo";
