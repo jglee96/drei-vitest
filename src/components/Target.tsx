@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useGLTF } from "@react-three/drei";
 
 export default function Target() {
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
