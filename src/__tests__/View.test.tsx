@@ -6,15 +6,15 @@ import ViewTwo from "../components/ViewTwo";
 describe("ViewOne", () => {
   it("should render successfully", async () => {
     const renderer = await ReactThreeTestRenderer.create(<ViewOne />);
-    const renderedTree = renderer.toTree();
-    expect(renderedTree).toBeTruthy();
+    const instance = renderer.getInstance();
+    expect(instance).toBeTruthy();
   });
 });
 
 describe("ViewTwo", () => {
   it("should render successfully", async () => {
     const renderer = await ReactThreeTestRenderer.create(<ViewTwo />);
-    const renderedTree = renderer.toTree();
-    expect(renderedTree).toBeTruthy();
+    const instance = renderer.getInstance();
+    expect(instance).toBeTruthy();
   });
 });
